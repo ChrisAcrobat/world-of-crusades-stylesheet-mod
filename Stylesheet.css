@@ -1,0 +1,32 @@
+/**
+{
+	"name": "Defaults",
+	"description": "This is a baseline stylesheet to make business-the-game usable.\nIt may not be pretty, but it is functional.",
+	"imageUrl": "",
+	"public": true,
+	"using": []
+}
+**/
+#CellText{
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+#SurfaceType-GROUND{
+	background-color: #00ff00;
+}
+#SurfaceType-WATER{
+	background-color: #0a3264;
+}
+#SurfaceType-SNOW{
+	background-color: white;
+}
+#SurfaceType-STEEP_MOUINTIN{
+	background-color: #ff6400;
+}
+#SurfaceType-ROUGTH_TERRAIN{
+	background-color: #646400;
+}
+#SettlementSize-img-VILLAGE{
+	--src: "https://image.flaticon.com/icons/svg/1441/1441266.svg"; /* Icon made by itim2101 from www.flaticon.com */
+}
